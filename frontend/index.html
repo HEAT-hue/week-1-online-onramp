@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Week-1-Task</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Week-1-Task</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex-block-center">
+        <h2>sneakers</h2>
+        <ul class="flex-block-center">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div class="about-info">
+          <div class="icon-cont">
+            <i class="bi bi-cart"></i>
+          </div>
+          <div class="avatar">
+            <img src="./img/Avatar img.jpg" alt="avatar" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-showcase">
+        <div class="hero-img">
+          <img src="./img/HeroImg.jpg" alt="hero-img" />
+        </div>
+        <div class="more-product-img">
+          <div>
+            <img
+              src="./img/subImg1.jpg"
+              alt="img"
+              class="subImg first-subImg"
+            />
+          </div>
+          <div>
+            <img src="./img/subImg2.jpg" alt="img" class="subImg" />
+          </div>
+          <div>
+            <img src="./img/subImg3.jpg" alt="img" class="subImg" />
+          </div>
+          <div>
+            <img src="./img/subImg4.jpg" alt="img" class="subImg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about-product">
+        <h4 class="pry-color">SNEAKER COMPANY</h4>
+        <h2 class="text-pry">
+          Fall Limited Edition <br />
+          Sneakers
+        </h2>
+        <p class="product-desc">
+          These low profiles sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer
+        </p>
+        <div class="product-price flex-block-center">
+          <p class="price">$125.00</p>
+          <p class="price-percentage">50%</p>
+        </div>
+        <div class="discount-price">
+          <p>$250.00</p>
+        </div>
+
+        <div class="assessment">
+          <div class="quantity">
+            <div class="flex-center">-</div>
+            <div class="flex-center">0</div>
+            <div class="flex-center">+</div>
+          </div>
+          <div class="addCart">
+            <div class="cartIcon"></div>
+            <button>Add to cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
